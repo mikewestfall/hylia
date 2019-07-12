@@ -14,7 +14,7 @@
   {% endblock %}
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
-<body class="{{ fileSlug }}">
+<body class="{{ page.fileSlug }}">
   {% include "partials/global/site-head.njk" %}
   {% block content %}
   {% endblock content %}
